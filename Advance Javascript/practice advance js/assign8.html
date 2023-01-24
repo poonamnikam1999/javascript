@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No.8</title>
+</head>
+<body>
+    
+   <script>
+    let dname=prompt("Enter the depositor name")
+console.log("Depositor Name :",dname);
+
+let acno=prompt("Enter the account no")
+console.log("Account No :",acno);
+
+let type=prompt("Enter the account type")
+console.log("Account type :",type);
+
+let bal="3000";
+console.log("Balance amount :",bal);
+
+let val=prompt("Enter the type of value")
+
+if(val ==='d' || val ==='D'){
+    console.log("value type : Deposit");
+    deposit();
+}
+else{
+    console.log("value type : Withdrawn");
+    withdrawn();
+}
+function deposit(){
+    let d=prompt("Enter the deposited amount");
+    d=parseInt(d);
+    console.log("Deposited Amount :",d);
+    
+    if(d>=1000){
+        let balance=parseInt(d)+parseInt(bal);
+        console.log("Balance :",balance);
+    }
+    else{
+        console.log("can not calculate")
+    }
+   
+}
+function  withdrawn(){
+    let w=prompt("Enter the withdrawn amount");
+    console.log("Withdrawn Amount :",w);
+
+    if(w>=1000){
+        let balance=parseInt(w)-parseInt(bal);
+        console.log("Balance :",balance);
+    }
+    else{
+        console.log("can not calculate");
+    }
+}
+   </script>
+
+</body>
+</html>

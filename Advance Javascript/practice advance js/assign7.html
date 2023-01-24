@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment No.7</title>
+</head>
+<body>
+    
+<script>
+    class Library{
+
+constructor(){
+    this.acc_num;
+    this.title;
+    this.author;
+    this.days;
+    this.charge;
+}
+
+Input(){
+    this.acc_num=prompt("Enter the accession no. of book")
+
+    this.title=prompt("Enter the title of book")
+
+    this.author=prompt("Enter the name of author")
+
+    this.days=prompt("Enter the no. of days")
+}
+
+display(){
+    console.log("Accession Number :",this.acc_num);
+    console.log("Title of Book :",this.title);
+    console.log("Name of Author :",this.author);
+    console.log("Number of Days :",this.days);
+}
+
+compute(){
+    if(this.days<=10 && this.days>=3){
+        this.charge=2*this.days
+        console.log(" Fine Charge :",this.charge);
+    }
+    // else if(this.days>=5){
+    //     this.charge=2*this.days
+    //     console.log("Fine charge :",this.charge);
+    // }
+
+    else{
+        console.log("Undefined")
+    }
+}
+}
+let lib=new Library()
+lib.Input()
+lib.display()
+lib.compute()
+</script>
+
+</body>
+</html>

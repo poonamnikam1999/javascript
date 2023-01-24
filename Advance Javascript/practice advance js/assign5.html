@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment no. 5</title>
+</head>
+<body>
+    <script>
+      
+      class student{
+    constructor(){
+    this.name;
+    this.hindi;
+    this.english;
+    this.maths;
+    this.computer;
+    this.average;
+    this.grade;
+    }
+
+    voidaccept(){
+     this.name=prompt('Enter your this.name');
+     console.log('Student Name :',this.name);
+
+     this.hindi=parseInt(prompt('Enter your marks in hindi'));
+     console.log('Marks in hindi :',this.hindi);
+
+     this.english=parseInt(prompt('Enter your marks in english'));
+     console.log('Marks in english :',this.english);
+
+     this.maths=parseInt(prompt('Enter your marks in maths'));
+     console.log('Marks in maths :',this.maths);
+
+     this.computer=parseInt(prompt('Enter your marks in computer'));
+     console.log('Marks in computer :',this.computer);
+
+    }
+
+    voidcalcavg(){
+    
+    //    this.averagemarks=(parseInt(this.hindi )+parseInt(this.maths)+parseInt(this.english)+parseInt(this.computer))/4;
+         this.averagemarks=(this.hindi+this.maths+this.english+this.computer)/4;
+       console.log('Average of the marks obtained :',this.averagemarks);
+
+       if(this.averagemarks>=90){
+        
+        console.log('Grade Obtained :A++');
+       }
+
+       else if(this.averagemarks>=75 && this.averagemarks<90){
+      
+        console.log('Grade Obtained :A');
+          
+       }
+
+       else{
+        console.log('Grade obtained :B');
+       }
+
+    }
+}
+let stu=new student()
+stu.voidaccept()
+stu.voidcalcavg()
+    </script>
+</body>
+</html>

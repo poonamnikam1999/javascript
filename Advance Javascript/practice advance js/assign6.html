@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment no. 6</title>
+</head>
+<body>
+    
+   <script>
+    class Empl{
+   
+   constructor(){
+       this.Emp_No;
+       this.Name;
+       this.Basic;
+       this.DA;
+       this.HRA;
+       this.TA;
+       this.PF;
+       this.gross;
+   }
+
+   get(){
+       this.Emp_No=prompt("Enter the emp no.");
+
+       this.Name=prompt("Enter the employee name");
+
+       this.Basic=parseInt(prompt("Enter the basic salary of employee"));
+       
+   }
+
+   display(){
+       console.log("Employee No. :",this.Emp_No);
+       console.log("Employee Name :",this.Name);
+       console.log("Basic Salary :",this.Basic);
+    }
+    calc(){
+        if(this.Basic>=20000){
+
+            this.PF=this.Basic*8/100;
+          console.log("Provident Fund :",this.PF);
+
+          this.gross=this.Basic+(this.Basic*((53+12+10)/100))-this.PF;
+          console.log("Gross Salary :",this.gross);
+        }
+
+        else if(this.Basic>=10000 && this.Basic<20000){
+        this.PF=7.5/100*this.Basic
+        console.log("Provident Fund :",this.PF);
+
+        this.gross=this.Basic+(this.Basic*((45+10+12)/100))-this.PF;
+        console.log("Gross Salary :",this.gross);
+        }
+
+        else if(this.Basic<10000){
+        this.PF=7/100*this.Basic
+          console.log("Provident Fund :",this.PF);
+
+        this.gross=this.Basic+(this.Basic*((40+8+14)/100))-this.PF;
+        console.log("Gross Salary :",this.gross);
+        }
+
+        else{
+        console.log("Undefine");
+       }
+    }
+}
+let emp=new Empl()
+emp.get()
+emp.display()
+emp.calc()
+   </script>
+
+</body>
+</html>
