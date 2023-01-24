@@ -1,0 +1,47 @@
+JavaScript Fundamentals:
+Introduction of JS
+Running Js Application
+Variable                                                                                                                                                                                                                                   
+Data Types
+Operator
+Statment
+Functions
+----------------------------------------------
+What is Variable:-
+memory location where we store data.
+
+1) Delecration
+	scope variableName;
+	
+	let lastName;
+	let email;
+	let rollNo;
+	
+2) Define / initilization
+	let lastName="sai";
+	let email ="sai@gmail.com"
+	
+3) Scope
+	var - function level scope
+	
+	let - block level scope
+	
+	const - block level scope
+			we can not reinitilize or change the value of our variable.
+	
+	function addition()
+	{
+	
+	{
+	let num=100;
+	
+	}
+	
+	{
+	console.log(num);
+	}
+	
+	
+	}
+
+

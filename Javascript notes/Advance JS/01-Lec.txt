@@ -1,0 +1,53 @@
+Advance JavaScript:
+
+Basic Functions: group of statment
+	i) function define - function fun(){
+								
+					}
+	ii) function calling - fun();
+
+
+types of function:
+1) Simple function
+	function fun(){
+		
+		}
+2) Parameterised function
+	function fun(a,b){
+
+		}
+		function(4,5);
+
+3) return function
+
+=================================================================
+
+Advance Functions:
+	1) different types of function defination
+		a) Define by Expression:
+			when we store a function inside the variable.
+			
+		let k = function fun(){
+		
+		console.log("Hello");
+		}
+		k()
+		
+		b) anonymous Functions:
+			When we define function without name it is called anonymous function.
+			
+			let k=function (){
+			console.log("hello i am anonymous function");
+			
+						}
+				k()
+		
+		c) Arrow Functions:
+			Arrow function define by Fat arrow icon =>
+			
+			let k = ()=>{
+			console.log("Hello i am arrow function");
+			}
+			k()
+			
+		

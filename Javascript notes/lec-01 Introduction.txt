@@ -1,0 +1,58 @@
+Session 01- Introduction of JavaScript
+HTMl - create element
+CSS - stylesheet
+JavaScript - to make our element dynamic.
+-----------------------------------------------------
+JavaScript was invented by Brendan Eich in 1995.
+
+1.JavaScript is a programming language which is used at
+	i. Client
+	ii.Server both side.
+
+2. JavaScript used to make dynamic application.
+
+
+1) Library - 
+predefined code we use in our project with our process.(where ever we want we use code)
+	i.React JS
+	ii.Jeqery
+	iii.Ajax
+	
+2) Framework -
+predefined code and pre defined process.
+	i.Angular
+	
+
+interview Question:
+1) What is diffrence in React Js and Angular.
+2) What is diffrence in JAVA and JavaScript
+JAVA - is purely backend(server) language it is compile on virtual machine.
+JavaScript -  used in front end and backend compile on browser/node js tools.
+
+execution/run
+1) compiler / interpreter - it covert english language into computer language
+2) inbuild library - browser/node js tools
+
+Language Differene:
+English				Programming Language
+A to Z				A to Z
+0 to 9				0 to 9
+%*+-Special Symbol		-+/ operator
+Word				Variable
+Multiple word-Sentence		Statment
+Paragraph			Function
+Page				Class
+Lesson				Module
+Book				Software/application
+
+
+Where you can run your code:
+	1.Browser
+		google chrome
+		mozila
+		edge
+	
+	2.Node JS Tools
+		node js
+		download node js
+

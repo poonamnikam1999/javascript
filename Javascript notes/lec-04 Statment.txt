@@ -1,0 +1,46 @@
+Statments:
+it is a combination of variable data type and operator.
+
+1) Decleration statment
+let num1;  // it is delceration statment.when we declear variable,object
+			  or array or function.
+			  
+
+2) Arithmetic Statment
+
+3) Conditional / logical statment:
+	a) branching:
+		i) if:
+			mark=35;
+			if (mark>45)
+			{
+			console.log('you are passed');
+			}
+			
+		ii) if else:
+		
+		iii) else if lader:
+		
+		iv) switch case:-
+		
+		let choice;
+		choice=1;
+		
+		switch(choice){
+		
+		case 1:
+		console.log('you select marathi');
+		break;
+		
+		case 2:
+		console.log('you select hindi');
+		break;
+		
+		default:
+		console.log('you select none');
+		}
+	
+	b) looping:
+		for
+		while
+		do while

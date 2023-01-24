@@ -1,0 +1,66 @@
+Operator:
+a symbol which perform operation on operand
+
+	
+	i) unary - single
+		which symbol perform operation on single operand
+			a) increment
+			
+				prefix and Postfix
+				postfix = 7++;
+				prefix = ++7;
+			b) decrement
+				7--;
+				
+	ii) Binary - double
+		which symbol perform operation on double operand is called binary
+			a) Arithmetic 
+				
+				
+			b) Assignment
+			+-*/%
+				
+			c) Relational - true or false
+				
+				> greater than
+				< less than
+				>= greater than equal to
+				<= less than equal to
+				==	double equal
+				=== tripal equal
+				
+			d) Logical
+				and 
+				maths=63;
+				hindi=56;
+				eng=45;
+				
+				or
+				maths=63;
+				hindi=26;
+				eng=45;
+				
+				not 
+				
+				
+	iii) ternary - three
+			mark =45;
+			resul = true ? "pass" : "fail";
+
+Conversion:
+1. implicit
+	automatically JS engine conver to 1 type to another
+	let num1='10';
+	let num2 =5;
+	console.log(num1*num2);
+
+2. explicit
+	parseInt()
+	number()
+	console.log(praneInt(num1*num2);
+	console.log(boolen(0));
+
+
+Question:
+1) what is diff. in == and ===
+	

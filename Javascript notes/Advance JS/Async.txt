@@ -1,0 +1,23 @@
+JavaScript:
+Single Threaded Programming language:
+At a time one task
+		JavaScript
+		Python
+		Node Js
+		
+
+
+Blocking:
+till First function not get exicute another will be Block that is blocking
+
+Synchronous:
+Means all the function will get exicute in order wise.
+
+Asynchronous:
+If the first function takes more time to exicute then second function 
+will overtake and exicute by the help of Asynchronous method.
+
+Asyn:
+setTimeout (fun , 5000)
+
+setInterval (fun, 5000)

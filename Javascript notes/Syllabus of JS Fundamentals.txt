@@ -1,0 +1,83 @@
+variables:
+	Decleration
+	Define/Initilization
+	Scop
+		let
+		var
+		const
+
+======================================
+Comments:
+// for single line comment
+/*
+
+*/ for double line comment
+=======================================
+Data Types:
+1) Premitiv:
+	Number
+	String:
+		single quot ''
+		double quot ""
+		tick		``
+	Boolean
+	Null
+	Undifined
+2) Non-Premitiv:
+	Object
+	Array
+======================================
+Conversion:
+1) Implicit conversion:
+	Automatical conversion
+2) Explicit conversion
+	Number()
+	ParseInt()
+	
+	Number to Boolean
+	console.log(Boolean(1));
+========================================
+Operator:
+1) Unary operator
+	increment
+		postfix
+		prefix
+	Decrement
+		postfix
+		prefix
+		
+2) Binary operator
+	A) Arithmetic Operator
+		+ / * - %
+	B) Assignment Operator
+		=
+	C) Relational Operator
+		> ,< ,>= ,<= 
+			Equality:
+			== and ===
+	D) Logical Operator
+		true or fasle
+
+3) Ternary operator
+			= ?	:	
+	result= true ? "pass" : "fail" ;
+============================================
+Statment:
+	1) Decleration statment
+	2) Arithmetic Statment
+	3) Conditional / Logical Statment
+		Branching
+			if
+			else if
+			else if lader
+			swithch case
+		Looping
+			for
+			while
+			do while
+===============================================
+Functions:
+	1) Simple function
+	2) Parameterized Functions
+	3) Return Functions
+

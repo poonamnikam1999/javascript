@@ -1,0 +1,41 @@
+What we can Get with DOM
+	HTML
+	Text
+	Attribute
+
+DOM Get Method
+	innerText:
+		element = document.getElementById("footer").innerText;
+	innerHTML:
+		element = document.getElementById("footer").innerHTML;
+	getAttribute:
+		element = document.getElementById("header").getAttribute("title");
+	getAttributeNode:
+		document.getElementById("header").getAttributeNode("title");
+
+	Attributes:
+		element = document.getElementById("header").attributes;
+		element = document.getElementById("header").attributes[2]
+		element = document.getElementById("header").attributes[2].name;
+		.value - to get value inside the attribute
+		.name - to get name of that attribute
+====================================================================
+
+DOM Set Method
+	innerText
+		document.getElementById("footer").innerText = "hello";
+		element = document.getElementById("footer").innerHTML;
+	innerHTML
+		document.getElementById("footer").innerHTML = "<h2>hello</h2>";
+		element = document.getElementById("footer").innerHTML;
+	setAttribute
+		document.getElementById('head').setAttribute("title","i am heading")
+		element=document.getElementById('head');
+	Attributes
+		document.getElementById('head').attributes[1].value="color:purple";
+		element=document.getElementById('head');
+	removeAttribute
+		document.getElementById('head').removeAttribute("style")
+		element=document.getElementById('head');
+	
+					

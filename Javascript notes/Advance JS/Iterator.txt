@@ -1,0 +1,71 @@
+Itrator/Iterable:
+Itrator means loop
+
+Itrator/ loop
+for
+while
+do while
+
+for of -> iterable
+array
+
+map
+weak
+
+js engine Iterable
+[Symbol.iterator]
+
+Iterable: -
+which object follows iterable protocol that data type we called iterable.
+
+iterable protocol: -rules
+1) the object must have a function with a key Symbol.iterator
+2) Key must have function
+3) Symbol.iterator function must have iterator object.
+4) the iterator object must have next key function.
+5) the next function must return a object with 2 fileds
+
+
+
+
+ let emp={
+ 
+ [Symbol.iterator]:function(){
+ 
+ count=0;
+ 
+ let sam={
+ next:function(){
+ count++;
+ 
+ if(count==1){
+ return {value:"pooja",done:false}
+ }
+ else if(count==2){
+ return{value:"piya",done:false}
+ }
+ 
+  else if(count==3){
+ return{value:"sam",done:false}
+ }
+ else()
+ return{value:"undefine",done:true}
+ 
+
+ 
+ 
+ }
+ 
+ 
+ }
+ return sam;
+ 
+ 
+ }
+ 
+ 
+ }
+ 
+ for (let e of emp){
+ console.log(e)
+ }

@@ -1,0 +1,50 @@
+Statments:
+	1) Decleration statment
+	2) Arithmetic Statments
+	3) conditional / logical statment
+		branching
+			if
+			else
+			else if lader
+			switch case
+		looping / iteration
+			for
+			while
+			do while
+	
+	initizilation; condition; increment/decrement
+	
+	for (a=1; a<=10; a++)
+	{
+	console.log("sai "+a);
+	}
+
+
+Function:
+1) simple function:
+
+	function addition()
+	{
+
+	let sub1=50;
+	let sub2=30;
+	let result=sub1+sub2;
+
+	console.log(result);
+
+	}
+	addition();
+
+
+2) Parametrized function:
+
+function addition(a,b)
+{
+
+c=a+b;
+
+console.log(c);
+
+}
+addition(5,3);
+

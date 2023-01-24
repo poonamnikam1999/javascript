@@ -1,0 +1,81 @@
+Variable:
+Name of memory location where we store data.
+Nameing Convention:-
+	camelCase
+empId;
+empSalary;
+	
+name should not start with number or special symbol
+
+1) Declaration:-
+
+scope variableName;
+let firstName="sai";
+let lastName;
+let email;
+
+
+2) Define / Initilization:-
+
+let firstName ="sai";
+
+3) Scope
+var - function level
+let - block level
+const - block level
+
+function sam()
+{
+
+{
+block 1
+}
+
+{
+blcok 2
+}
+
+
+}
+
+===========================================================
+
+Data Types:
+1) Premetive:
+	1. number
+		let mobile=45000;
+		console.log(mobile);
+		
+	
+	2. string
+		1. ' ' - singlr quot
+		2. " " - double quot
+		3. ` ` - tick
+
+		price=2500;
+		tShirt="Price of T-shirt is "
+
+		console.log(t-shirt);
+		
+		
+	
+	3. boolean -true / false
+	4. null - 
+	5. undefine -
+
+
+2) non-premetive
+		
+
+	1. object:
+	let Student={
+		rollNo :1,
+		firstName :"sheetal",
+		lastName :"more",
+		result :"pass",
+		issPassed :"true"
+		}
+		
+
+	2. Array :
+	let student =["sai","pooja","neha","riya"]

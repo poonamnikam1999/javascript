@@ -1,0 +1,47 @@
+
+let student={
+    firstName:"sheetal",
+    middleName:"ganesh",
+    lastName:"bendre"
+}
+
+let fName;
+let mName;
+let lName;
+
+
+function fullName(){
+
+    setTimeout(()=>{
+        fName=student.firstName
+
+        setTimeout(()=>{
+            mName=student.middleName
+
+            setTimeout(()=>{
+                lName=student.lastName
+                console.log(fName,mName,lName)
+            },2000)
+        },2000)
+    },2000)
+
+    // setTimeout(()=>{
+    //     fName=student.firstName
+       
+
+    // },2000)
+
+    // setTimeout(()=>{
+    //     mName=student.middleName
+        
+    // },3000)
+   
+
+    // setTimeout(()=>{
+    //     lName=student.lastName
+    //     console.log(fName,mName,lName)
+    // },4000)
+
+}
+
+fullName()

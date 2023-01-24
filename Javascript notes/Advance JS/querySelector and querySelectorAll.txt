@@ -1,0 +1,18 @@
+New DOM Targeting Method:
+1) querySelector 
+		document.querySelector(css selector)
+		it will target the first css selector. 
+		
+		
+1) querySelectorAll 
+		document.querySelectorAll(css selector)
+		it will target all the same css selector
+		
+		Example:
+		let ul ;
+		ul = document.querySelectorAll('#header h1')[1].innerHTML;
+		console.log(ul);
+
+
+		
+		
